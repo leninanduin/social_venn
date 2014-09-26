@@ -1,0 +1,23 @@
+<html >
+<head>
+    <title></title>
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="bower_components/ngstorage/ngStorage.min.js"></script>
+    <script src="bower_components/angular-route/angular-route.min.js"></script>
+    <script type="text/javascript" src="js/oauth.js"></script>
+    <script type="text/javascript" src="js/core.js"></script>
+    <script type="text/javascript" src="js/tw_service.js"></script>
+
+</head>
+<body ng-app="socialVennApp">
+    <header>
+        <ul>
+            <li><a href="{{ app_folder }}">setup services</a></li>
+        </ul>
+    </header>
+    <div ng-controller="MainCtrl as main">
+        <div ng-view></div>
+    </div>
+</body>
+</html>

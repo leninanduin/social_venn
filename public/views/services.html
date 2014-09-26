@@ -1,0 +1,10 @@
+<div>
+    Add a service:
+    <ul>
+        <li ng-repeat="serv in services">
+            <button data-service="{{ serv.name }}" ng-click="callAuthService(serv)">{{ serv.name }}</button>
+        </li>
+    </ul>
+    <button>Next >></button>
+    <!-- should stop auth_srvcs_watcher -->
+</div>

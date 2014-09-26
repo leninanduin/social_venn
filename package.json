@@ -1,0 +1,13 @@
+{
+  "name"         : "social_venn",
+  "version"      : "0.0.1",
+  "description"  : "Social data comparison tool.",
+  "main"         : "server.js",
+  "author"       : "@leninanduin",
+  "dependencies" : {
+    "express"    : "~4.7.2",
+    "morgan"     : "~1.2.2",
+    "body-parser": "~1.5.2",
+    "method-override": "~2.1.2"
+  }
+}
